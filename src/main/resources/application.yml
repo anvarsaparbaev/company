@@ -1,1 +1,8 @@
-
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/enterprisecompany
+    username: postgres
+    password: java
+  jpa:
+    hibernate:
+      ddl-auto: update

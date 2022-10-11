@@ -12,8 +12,8 @@ import javax.validation.constraints.NotNull;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity(name = "departament")
-public class Departament {
+@Entity(name = "department")
+public class Department {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
