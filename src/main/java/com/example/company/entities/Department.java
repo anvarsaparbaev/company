@@ -22,7 +22,7 @@ public class Department {
     @NotNull
     private String name;
 
-    @OneToOne
+    @ManyToOne
     private Company company;
 
 }
